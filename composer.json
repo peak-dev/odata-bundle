@@ -16,12 +16,19 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.4",
         "symfony/framework-bundle": "~2.3",
         "symfony/class-loader": "~2.2",
         "doctrine/annotations": "~1"
     },
     "autoload": {
-        "psr-4": "masch\\Bundle\\ODataBundle"
+        "psr-4": {
+            "masch\\Bundle\\ODataBundle\\": ""
+        }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit -c Tests/Functional/app/app"
+        ]
     }
 }
