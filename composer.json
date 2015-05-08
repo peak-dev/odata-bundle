@@ -1,0 +1,19 @@
+{
+    "name": "masch/odata-bundle",
+    "description": "Symfony2 OData Bundle",
+    "require-dev": {
+        "phpunit/phpunit": "~4.6",
+        "phpmd/phpmd": "dev-master",
+        "leaphub/phpcs-symfony2-standard": "~2.1@dev",
+        "squizlabs/php_codesniffer": "~2.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Schmale",
+            "email": "masch@masch.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
