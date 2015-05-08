@@ -15,5 +15,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/class-loader": "~2.2",
+        "doctrine/annotations": "~1"
+    },
+    "autoload": {
+        "psr-4": "masch\\Bundle\\ODataBundle"
+    }
 }
