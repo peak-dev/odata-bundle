@@ -3,9 +3,9 @@
     "description": "Symfony2 OData Bundle",
     "require-dev": {
         "phpunit/phpunit": "~4.6",
-        "phpmd/phpmd": "dev-master",
-        "leaphub/phpcs-symfony2-standard": "~2.1@dev",
-        "squizlabs/php_codesniffer": "~2.0@dev"
+        "phpmd/phpmd": "~2.2",
+        "leaphub/phpcs-symfony2-standard": "~2.0",
+        "squizlabs/php_codesniffer": "~2.0"
     },
     "license": "MIT",
     "authors": [
@@ -14,7 +14,6 @@
             "email": "masch@masch.it"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
         "symfony/framework-bundle": "~2.3",

@@ -10,8 +10,8 @@ before_install:
   - composer self-update
 
 install:
-  - composer install
-  - cd Tests/Functional/app && composer install && cd ../../..
+  - composer install --prefer-dist
+  - cd Tests/Functional/app && composer install --prefer-dist && cd ../../..
 
 script:
   - composer test
