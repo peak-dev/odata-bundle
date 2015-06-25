@@ -27,7 +27,9 @@
     },
     "scripts": {
         "test": [
-            "vendor/bin/phpunit -c Tests/Functional/app/app"
+            "vendor/bin/phpcs --standard=vendor/leaphub/phpcs-symfony2-standard/leaphub/phpcs/Symfony2/ruleset.xml *.php Tests",
+            "vendor/bin/phpmd . text cleancode,codesize,controversial,design,naming,unusedcode --exclude vendor",
+            "vendor/bin/phpunit -c phpunit.xml"
         ]
     }
 }
